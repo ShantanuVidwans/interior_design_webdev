@@ -2,6 +2,8 @@
     position: relative;
     text-align: center;
     color: black;
+    padding: 10px 10px;
+    margin: 5px 5px;
   }
     .container {
     position: relative;
@@ -38,6 +40,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
   }
 
   .btn {
@@ -74,10 +77,33 @@ position: absolute;
     top:20%;
     left: 20%;
     transform: translate(-20%, -20%);
+    padding: 5px 10px;
   }
   .cen {
 position: absolute;
-    top:70%;
-    left: 70%;
+    top:40%;
+    left: 72%;
     transform: translate(-70%, -70%);
+    padding: 5px 10px;
   }
+  .para {
+    padding: 25px 250px;
+
+  }
+
+.mam {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.full{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px 30px;
+}
+
+.half{
+  margin: 10px 10px;
+  padding: 5px 5px;
+}
+
