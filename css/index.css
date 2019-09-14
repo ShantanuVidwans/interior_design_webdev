@@ -1,0 +1,119 @@
+
+.core {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+    .container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .navbar-nav{
+    font-size: 22px;
+    color: black;
+    background:#ab9078 ;
+    font-family: 'Saira Stencil One', cursive;
+    /* font-family: 'Acme', sans-serif; */
+    font-style: normal;
+    font-stretch: semi-expanded;
+}
+/* .container{ */ 
+    /* background: url(https://previews.123rf.com/images/racca8888/racca88881806/racca8888180600224/105447354-old-wood-background-suitable-for-background-design-old-wooden-design-board-floor.jpg); */
+  /* } */
+  .navbar-brand {
+    font-size: 33px;
+    font-family: 'Saira Stencil One', cursive;;font-weight: bold;
+    /* font-family: 'Acme', sans-serif; */
+    color: black;
+    font-stretch: semi-expanded;
+    font-style: ;
+ }
+ .nav-link{
+   color: black;
+ }
+ #text{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font: 45px;
+}#text-2{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+    .bg-custom{
+      background: 30px;
+      background-image:image();
+      background: #ab9078 ;
+    }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn {
+    border: none;
+    background-color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .c {
+    color: black;
+  }
+  .text {
+    text-align: center;
+  }
+  * {
+box-sizing: border-box;
+}
+
+.column {
+float: left;
+width: 50%;
+padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.ro::after {
+content: "";
+clear: both;
+display: table;}
+.cent {
+position: absolute;
+    top:20%;
+    left: 20%;
+    transform: translate(-20%, -20%);
+  }
+  .cen {
+position: absolute;
+    top:70%;
+    left: 70%;
+    transform: translate(-70%, -70%);
+  }
