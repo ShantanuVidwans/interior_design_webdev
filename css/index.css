@@ -10,6 +10,40 @@
     text-align: center;
     color: white;
   }
+<<<<<<< Updated upstream
+=======
+  .navbar-nav{
+    font-size: 22px;
+    color: black;
+    font-family: 'Saira Stencil One', cursive;
+    /* font-family: 'Acme', sans-serif; */
+    font-style: normal;
+    font-stretch: semi-condensed;
+    font-weight: bold;
+}
+  .navbar-brand {
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 40px;
+    font-weight: bolder ;
+    font-stretch: semi-condensed;
+    color: black;
+ }
+ .nav-link{
+   color: black;
+ }
+ #text{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font: 45px;
+}#text-2{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+    .bg-custom{
+      background: 30px;
+      background-image:image();
+      background:rgba(247, 249, 250, 0.825) ;
+    }
+>>>>>>> Stashed changes
 
   .bottom-left {
     position: absolute;
